@@ -1,4 +1,4 @@
-# Simple expressjs server template
+# Simple ExpressJS server template
 ### Basics
 Only the basic code, to start an express server development
 
