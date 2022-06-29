@@ -1,6 +1,10 @@
 # Simple ExpressJS server template
 ### Basics
-Only the basic code, to start an express server development
+Only the basic code, to start a typescript version of an express server development.
+
+### P.S.
+This one is not a basic. If you are starting with express, consider usign vanilla branch of this repository: 
+https://github.com/Klygins/example-express-server/tree/master
 
 ### Extended
 #### Features

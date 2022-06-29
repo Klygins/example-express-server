@@ -1,7 +1,6 @@
-const express = require('express');
-const cors = require('cors');
-const bodyParser = require('body-parser')
-require('dotenv').config()
+import express, { Express, Request, Response } from 'express';
+import bodyParser from 'body-parser';
+import cors from 'cors';
 
 const app = express()
 
@@ -13,9 +12,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 console.log('Adding routes')
-app.get('/login', (req, res) => {
+app.get('/status', (req, res) => {
     // Implementation
-    res.send('If you see this, express server is working fine :)')
+    res.send('Express + TypeScript Server!')
 });
 
 console.log('Starting the server')
