@@ -13,8 +13,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 console.log('Adding routes')
-app.get('/login', (req, res) => {
-    // Implementation
+app.get('/api-status', (req, res) => {
+    // Request implementation
     res.send('If you see this, express server is working fine :)')
 });
 
