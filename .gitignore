@@ -77,3 +77,6 @@ typings/
 
 # Yarn lock file
 yarn.lock
+
+# build files
+dist
